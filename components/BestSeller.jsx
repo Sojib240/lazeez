@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import React from "react";
 import { bestSellerData } from "@/constant/data";
 import { Gallery, Item } from "react-photoswipe-gallery";

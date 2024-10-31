@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import CommonHero from "./common/CommonHero";
 import Services from "./Services";

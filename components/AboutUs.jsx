@@ -29,7 +29,7 @@ const AboutUs = () => {
                     <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-1">
                         {aboutImageData.map((item) => {
                             return (
-                                <div
+                                <div key={item.id}
                                     className={`h-[190px] sm:h-[210px] md:h-[230px] lg:h-[250px] rounded-2xl overflow-hidden group col-span-1 ${
                                         item.id === 3 &&
                                         "col-span-1 sm:col-span-2"
@@ -89,7 +89,7 @@ const AboutUs = () => {
                             return (
                                 <>
                                     {item.stats === true ? (
-                                        <div
+                                        <div key={item.id}
                                             className={` ${item.styles} w-full min-h-[280px] sm:min-h-[280px] md:min-h-[280px] lg:min-h-[350px] col-span-2 sm:col-span-2 md:col-span-1 lg:col-span-1 overflow-hidden group
                                             `}
                                         >
@@ -103,7 +103,7 @@ const AboutUs = () => {
                                             />
                                         </div>
                                     ) : (
-                                        <div
+                                        <div key={item.id}
                                             className={`${item.styles} w-full min-h-auto sm:min-h-auto md:min-h-[280px] lg:min-h-[350px] col-span-2 sm:col-span-2 md:col-span-1 lg:col-span-1 flex items-center justify-center p-5 bg-greenShade-300 text-white greenBg overflow-hidden relative`}
                                         >
                                             <h2 className="text-lg font-JosefinSans_Regular">

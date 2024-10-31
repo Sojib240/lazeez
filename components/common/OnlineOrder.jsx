@@ -1,3 +1,4 @@
+"use client";
 import { onlineOrderLinks } from "@/constant/data";
 import Link from "next/link";
 import React from "react";

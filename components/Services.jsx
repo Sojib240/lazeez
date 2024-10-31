@@ -28,7 +28,10 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-y-14 sm:gap-y-0 gap-x-10">
                 {serviceData.map((item) => {
                     return (
-                        <div className="relative col-span-2 md:col-span-1 rounded-tl-lg rounded-tr-lg overflow-hidden ">
+                        <div
+                            key={item.id}
+                            className="relative col-span-2 md:col-span-1 rounded-tl-lg rounded-tr-lg overflow-hidden "
+                        >
                             <div className="img h-[280px] sm:h-[350px] w-full mx-auto rounded-none sm:rounded-md overflow-hidden group">
                                 <img
                                     className="w-full h-full object-cover duration-150 transition-all group-hover:scale-105"

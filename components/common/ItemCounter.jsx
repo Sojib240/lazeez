@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { itemData } from "@/constant/data";
 import { motion } from "framer-motion";

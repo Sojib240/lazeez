@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import React from "react";
 import { reviewsData } from "@/constant/data";
 import { clientData } from "@/constant/data";

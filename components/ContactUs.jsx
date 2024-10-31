@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { contactData } from "@/constant/data";
 import SectionTitle from "./common/SectionTitle";

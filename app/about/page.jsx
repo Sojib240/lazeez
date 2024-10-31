@@ -1,3 +1,4 @@
+"use client";
 import AboutUs from "@/components/AboutUs";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";

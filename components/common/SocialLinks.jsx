@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { socialData } from "@/constant/data";
 import Link from "next/link";
